@@ -50,7 +50,7 @@ main img {
     height: auto;
     border: 1px solid black;
     padding: 3px;
-    box-shadow: green;
+    box-shadow: 0 0 30px green;
 
 }
 
