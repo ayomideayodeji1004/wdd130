@@ -34,7 +34,8 @@ img {
 }
 
 p {
-    padding: 0;
+    padding: 3px;
+    text-align: center;
 }
 
 main {
