@@ -30,6 +30,7 @@ img {
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
 }
 
 p {
@@ -52,7 +53,7 @@ aside {
 }
 
 aside img {
-    width: 1.5em;
+    width: 150px;
     height: auto;
 }
 
@@ -62,6 +63,7 @@ main img {
     border: 1px solid var(--border-color);
     padding: 3px;
     box-shadow: 0 0 30px green;
+    float: right;
 
 }
 
