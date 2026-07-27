@@ -53,9 +53,9 @@ aside {
 }
 
 aside h2 {
-    position: absolute;
-    top: 10px;
-    left: 150px;
+    position: relative;
+    top: 40px;
+    left: 70px;
 }
 
 aside img {
