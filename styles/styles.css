@@ -65,13 +65,12 @@ aside img {
 }
 
 main img {
-    width: 100%;
+    width: 150px;
     height: auto;
     border: 1px solid var(--border-color);
     padding: 3px;
     box-shadow: 0 0 30px green;
     float: right;
-    inline-size: 60%;
 
 }
 
