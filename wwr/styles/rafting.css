@@ -88,3 +88,29 @@ article {
     width: 125px;
     margin-left: 16px;
 }
+
+header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+header img {
+    width: 100px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
