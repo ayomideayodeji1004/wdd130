@@ -114,3 +114,41 @@ header nav ul li a {
     color: inherit;
     font-weight: bold;
 }
+
+.history-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.adventures-gallery {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.adventures-gallery figure {
+    flex: 1;
+    min-width: 150px;
+    text-align: center;
+    margin: 0;
+}
+
+.adventures-gallery img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+footer nav.socialmedia {
+    display: flex;
+    gap: 1rem;
+}
