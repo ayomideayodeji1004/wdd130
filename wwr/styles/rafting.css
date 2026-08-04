@@ -25,6 +25,11 @@ body {
 header {
     background-color: var(--primary-color);
     color: var(--accent2-color);
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
 }
 
 header,
@@ -87,14 +92,6 @@ article {
     float: right;
     width: 125px;
     margin-left: 16px;
-}
-
-header {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    align-items: center;
-    gap: 1rem;
-    padding: 1rem;
 }
 
 header img {
