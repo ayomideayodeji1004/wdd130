@@ -22,13 +22,18 @@ div {
 }
 
 .flex {
+    display: flex;
     background-color: #aba;
+    align-items: center;
+    justify-content: center;
     /* write declarations here */
 
 }
 
 .grid {
+    display: grid;
     background-color: #abb;
+    place-items: center;
     /* enter declarations here */
 
 }
