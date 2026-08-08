@@ -245,3 +245,13 @@ footer nav.socialmedia img {
     margin-top: 0.5rem;
     font-weight: bold;
 }
+
+.map {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.map iframe {
+    border: none;
+    max-width: 100%;
+}
