@@ -256,10 +256,15 @@ footer nav.socialmedia img {
 }
 
 .company-info {
-    text-align: left;
+    width: 100%;
+    text-align: center;
 }
 
 .map iframe {
     border: none;
     max-width: 100%;
+}
+
+.contact-form {
+    max-width: 400px;
 }
