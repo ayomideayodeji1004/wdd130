@@ -24,81 +24,48 @@
         </nav>
     </header>
     <main>
-        <div class="hero">
-            <img src="images/rafting.jpg" alt="rafting image" width="600">
+        <main>
+            <h1>Contact Us</h1>
 
-            <h1>WHITE WATER RAFTING</h1>
-            <article>
-                <h2>Our Mission</h2>
-                <img src="images/rafting-drivers.jpg" alt="the rafting drivers" width="400">
-                <p>At White Water Rafting, our mission is to deliver unforgettable adventures on the
-                    river while
-                    keeping safety and fun in perfect balance. We believe every paddle stroke should
-                    build confidence,
-                    connection, and a little bit of adrenaline. Whether you're a first-timer or a
-                    seasoned rafter, we're
-                    committed to guiding you through the rapids with expertise, energy, and a smile.
-                </p>
-            </article>
-        </div>
-        <section class="history">
-            <h2>History</h2>
-            <div class="history-content">
-                <p>White Water Rafting was founded in 2010 by a small group of river guides who
-                    shared a
-                    passion for adventure and the great outdoors. What started as a single raft
-                    and a
-                    handful of loyal customers has grown into one of the region's most trusted
-                    rafting
-                    outfitters, known for our experienced guides and unforgettable trips down
-                    some of the
-                    country's most thrilling rapids. Over the years, we've expanded our routes,
-                    upgraded our
-                    equipment, and built a community of adventurers who return year after year
-                    to chase the
-                    rush of the river.</p>
-                <img src="images/rafting-drivers.jpg" alt="Rafting group in history" width="300">
-                <p>Our guides are the heart of every trip. Each one is certified in swiftwater
-                    rescue and first aid,
-                    with years of experience reading the river and keeping every group safe without
-                    slowing down the
-                    fun. Whether you're booking a calm half-day float or chasing the extreme rapids,
-                    you'll be paired
-                    with a guide who knows the route by heart. Safety briefings happen before every
-                    launch, and we keep
-                    our gear inspected and up to date season after season. It's this attention to
-                    detail that lets our
-                    guests focus on nothing but the thrill of the ride.</p>
-            </div>
-        </section>
+            <section class="company-info">
+                <h2>White Water Rafting Company</h2>
+                <p>123 Main River Street<br>
+                    Kolob, California</p>
+                <p>Phone: +1 999 999 9999</p>
+                <p>Email: info@whitewater.com</p>
+            </section>
 
+            <section class="contact-form">
+                <h2>Send Us a Message</h2>
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
 
-        <section class="adventures">
-            <h2>Adventure Awaits You!</h2>
-            <div class="adventures-gallery">
-                <figure>
-                    <img src="images/los-denties.jpg" alt="los dientes">
-                    <figcaption>Los Dientes del Diablo</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/big-ballard.jpg" alt="big mallard">
-                    <figcaption>Big Mallard</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/half-day-adventure.jpg" alt="half day adventure">
-                    <figcaption>Half Day Adventure</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/sunrise.jpg" alt="sunrise run">
-                    <figcaption>Sunrise Run</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/extreme-rapid.jpg" alt="extreme rapid">
-                    <figcaption>Extreme Rapids</figcaption>
-                </figure>
-            </div>
-        </section>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
 
+                    <fieldset>
+                        <legend>Message Purpose</legend>
+                        <input type="radio" id="general" name="purpose" value="general" checked>
+                        <label for="general">General Inquiry</label>
+
+                        <input type="radio" id="reservation" name="purpose" value="reservation">
+                        <label for="reservation">Reservation Question</label>
+
+                        <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                        <label for="suggestion">Website Suggestion</label>
+                    </fieldset>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+
+                    <button type="submit">Get in Touch!</button>
+                </form>
+            </section>
+        </main>
     </main>
     <footer>
         <p>©2026 white water rafting Ayomide Ayodeji</p>
