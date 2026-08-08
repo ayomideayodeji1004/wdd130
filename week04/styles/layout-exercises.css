@@ -39,9 +39,12 @@ div {
 }
 
 .container2 {
-    /* write declarations here */
-
+    background-color: #abb;
+    display: grid;
+    place-items: center;
 }
+
+/* write declarations here */
 
 .two {
     background-color: #ace;
@@ -50,12 +53,14 @@ div {
 
 .container3 {
     /* write declarations here */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 
 }
 
 .columns-3 {
     /* write declaration here */
-
+    grid-column: span 3;
 }
 
 .three {
