@@ -220,3 +220,28 @@ footer nav.socialmedia img {
 .contact-form button:hover {
     background-color: #154360;
 }
+
+.team {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.team-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.team-grid figure {
+    margin: 0;
+}
+
+.team-grid img {
+    border-radius: 8px;
+}
+
+.team-grid figcaption {
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
