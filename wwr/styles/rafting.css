@@ -246,9 +246,17 @@ footer nav.socialmedia img {
     font-weight: bold;
 }
 
-.map {
-    text-align: center;
+.contact-top {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3rem;
+    flex-wrap: wrap;
     margin: 2rem 0;
+}
+
+.company-info {
+    text-align: left;
 }
 
 .map iframe {
