@@ -13,38 +13,36 @@
         <h1>WDD 130 | HTML Form- User poll</h1>
     </header>
     <main>
-        <div class="contact-information">
-            <h2>contact information</h2>
-            <form>
+        <form>
+            <fieldset class="contact-information">
+                <legend>contact information</legend>
                 <label for="name">Full Name</label>
                 <input type="text" id="name" name="name" required>
 
                 <label for="email">Email</label>
                 <input type="email" id="email" name="email" required>
-        </div>
 
 
-        <fieldset>
-            <legend>Questions</legend>
+                <fieldset>
+                    <legend>Questions</legend>
 
-            <label for="browser">What is your favorite internet browser?</label>
-            <select id="browser" name="browser">
-                <option value="chrome">Chrome</option>
-                <option value="firefox">Firefox</option>
-                <option value="safari">Safari</option>
-                <option value="edge">Edge</option>
-            </select>
+                    <label for="browser">What is your favorite internet browser?</label>
+                    <select id="browser" name="browser">
+                        <option value="chrome">Chrome</option>
+                        <option value="firefox">Firefox</option>
+                        <option value="safari">Safari</option>
+                        <option value="edge">Edge</option>
+                    </select>
 
-            <label for="pet">Do you have a household pet?</label>
-            <input type="checkbox" id="pet" name="pet">
+                    <label for="pet">Do you have a household pet?</label>
+                    <input type="checkbox" id="pet" name="pet">
 
-            <label for="places">List the places you have lived:</label>
-            <textarea id="places" name="places" rows="5"></textarea>
+                    <label for="places">List the places you have lived:</label>
+                    <textarea id="places" name="places" rows="5"></textarea>
 
-            <button type="submit">Submit</button>
-        </fieldset>
-        </form>
-        </div>
+                    <button type="submit">Submit</button>
+                </fieldset>
+
         </form>
     </main>
     <footer>
