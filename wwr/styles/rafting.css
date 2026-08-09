@@ -164,12 +164,6 @@ footer nav.socialmedia img {
     height: auto;
 }
 
-.contact-form {
-    max-width: 500px;
-    margin: 0 auto 2rem;
-    padding: 1.5rem;
-}
-
 .contact-form form {
     display: flex;
     flex-direction: column;
