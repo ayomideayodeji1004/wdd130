@@ -275,6 +275,11 @@ footer nav.socialmedia img {
     font-size: 3rem;
 }
 
+.cta-btn {
+    padding: 12px 24px;
+    display: inline-block;
+}
+
 .grid-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
