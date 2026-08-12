@@ -307,3 +307,31 @@ footer nav.socialmedia img {
     width: 100%;
     display: block;
 }
+
+.trips-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+}
+
+.trips-table caption {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.trips-table th,
+.trips-table td {
+    border: 1px solid #ccc;
+    padding: 0.75rem;
+    text-align: left;
+}
+
+.trips-table thead {
+    background-color: #2f4f2f;
+    color: white;
+}
+
+.trips-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
