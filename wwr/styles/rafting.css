@@ -257,3 +257,20 @@ footer nav.socialmedia img {
 .contact-form {
     max-width: 400px;
 }
+
+.hero-home {
+    position: relative;
+}
+
+.hero-home img {
+    width: 100%;
+    display: block;
+}
+
+.hero-home h1 {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    color: white;
+    font-size: 3rem;
+}
