@@ -291,3 +291,19 @@ footer nav.socialmedia img {
     text-align: center;
     margin-top: 0.5rem;
 }
+
+.trips-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.trip {
+    display: flex;
+    flex-direction: column;
+}
+
+.trip img {
+    width: 100%;
+    display: block;
+}
